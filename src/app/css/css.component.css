@@ -1,0 +1,25 @@
+section {
+  text-align: center;
+}
+
+h2 {
+  margin-left: 25px;
+  color: rgb(31, 31, 139);
+}
+
+h3 {
+  margin-left: 40px;
+  color: #1676ca;
+}
+
+p {
+  margin-left: 50px
+}
+
+ul {
+  margin-left: 60px
+}
+
+hr {
+  color: blue;
+}

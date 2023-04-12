@@ -1,0 +1,123 @@
+<app-navbar></app-navbar>
+
+<h3>Intégration du CSS</h3>
+<p>Nous allons maintenant quitter nos fichiers .html pour ouvrir style.css.</p>
+<p>En effet, le CSS est à coder de préférence dans les fichiers type .css.</p>
+<p>Avant toute chose, il va falloir dire à notre fichier .html où se trouve notre feuille de style .css. Pour cela, nous allons ajouter une ligne de code dans la balise head :</p>
+<section><img src="assets/6.png"></section>
+<p>Cette balise link est autofermante. Elle contient 3 attributs :
+</p>
+<ul>
+    <li>rel : qui défini la relation entre le fichier .html et le fichier lié. Ici, il s'agit de notre feuille de style.
+    </li>
+    <li>type : qui définit le type de document lié. Ici, il s'agit d'un fichier .css.
+    </li>
+    <li> href : permet d'indiquer le chemnin vers notre fichier.</li>
+</ul>
+<hr>
+<h2>Les sélecteurs et les propriétés</h2>
+<p>Maintenant que vous êtes un cador du HTML, nous allons voir comment styliser tout ça. Alors que le HTML sert à structurer notre contenu au moyen de balises, le CSS sert lui à mettre en forme ce contenu.</p>
+
+<h3>LES SÉLECTEURS</h3>
+<p>La première chose à définir en CSS est le sélecteur. Il s'agit de l'élément auquel nous allons appliquer un style :</p>
+<section><img src="assets/88.png" width="600px" height="300"></section>
+<p>Ici, je choisis de cibler les balises de type paragraphe et de titre h1. J'utilise donc le même sélecteur qu'en HTML : p , h1. Notez les crochets qui suivent notre sélecteur. Ils définissent l'endroit où nous allons entrer les propriétés de style.
+</p>
+<p>Régle de CSS</p>
+<p>Chaque sélecteur possede des propriétés et des valeurs:</p>
+<section><img src="assets/css .png" width="600px" height="300px"></section>
+<hr>
+<h2>.class et #id</h2>
+<p>Nous allons maintenant voir comment cibler un élément en particulier plutôt qu'un type d'élément. Pour cela, nous allons leur donner un nom, puis les cibler en CSS.</p>
+<h3>LES #ID
+</h3>
+<p>Pour donner une #id à une balise, nous allons utiliser l'attribut HTML id :</p>
+<p>Pour cibler une #id en CSS, nous allons utiliser le sélécteur # :</p>
+<section><img src="assets/id.png" width="600px" height="300px"></section>
+<hr>
+<h3>LES .CLASS</h3>
+<p>De la même manière que les #id, nous allons utiliser l'attribut HTML class :</p>
+<p>Pour cibler une .class en CSS, nous allons utiliser le sélécteur . :</p>
+<section><img src="assets/class.png" width="600px" height="300px"></section>
+<hr>
+<h3>SELECTURS DESCENDANTS</h3>
+<p>Permet d’associer un style à un élément contenu directement ou indirectement dans un autre élément</p>
+<section><img src="assets/1.PNG"><img src="assets/222.PNG"></section>
+<HR>
+<h3>SELECTEURS ENFANTS ></h3>
+<p> Permet d’associer un style à un élément contenu directement dans un autre élément.</p>
+<section><img src="assets/44.PNG"><img src="assets/3.PNG"></section>
+<HR>
+<h3>SELECTEURS ADJACENTS ></h3>
+<p>Permet d’associer un style à un élément suivant immédiatement un autre élément</p>
+<section><img src="assets/5.PNG"><img src="assets/66.PNG"></section>
+<hr>
+<h2>La propriété font-</h2>
+<p>Maintenant que vous savez coder en HTML et CSS, nous allons voir l'ensemble des propriétés et balises possibles.
+
+</p>
+<h3>FONT-FAMILY</h3>
+<p> L'un des éléments le plus important du webdesign est la ou les typos utilisées. Historiquement, il n'existe que très peu de polices utlisables sur un site internet :</p>
+<ul>
+    <li>Arial</li>
+    <li>Times</li>
+    <li>New Roman</li>
+    <li>Palatino</li>
+    <li> Garamond</li>
+    <li> Bookman</li>
+
+    <li>Avant Garde</li>
+    <li>Courier</li>
+    <li>Courier New</li>
+</ul>
+<section><img src="assets/646.PNG"></section>
+<hr>
+<h3>FONT-WEIGHT</h3>
+<p>La propriété font-weight permet de contrôler la graisse de notre texte.</p>
+<p>Voilà la liste des valeurs possibles :</p>
+<ul>
+    <li>normal : Niveau de graisse regular.</li>
+    <li>bold : Niveau de graisse gras.</li>
+    <li>lighter : Diminue d'un niveau la valeur de graisse.</li>
+    <li>bolder : Augmente d'un niveau la valeur de graisse.</li>
+</ul>
+<section><img src="assets/mml.png" width="600px" height="300px"></section>
+<hr>
+<h3>FONT-STYLE</h3>
+<p>La propriété font-style permet d'utiliser une version italique de la police de caractère où, à défaut, de pencher artificiellement le texte.</p>
+<section><img src="assets/font.PNG"></section>
+<hr>
+<h3>FONT-SIZE</h3>
+<p>La propriété font-size permet de définir une taille à notre texte. Il est possible d'utiliser plusieurs unités :</p>
+<ul>
+    <li>Les pixels : ils permettent de définir une valeur fixe, absolue et identique sur tous les navigateurs.
+
+    </li>
+    <li>Les ems : ils permettent de définir une valeur dynamique basée sur la taille de l'élément parent.</li>
+
+    <li>Les mots clefs : comme les pixels, ils permettent de définir une valeur fixe, absolue et identique sur tous les navigateurs.</li>
+    <li>Les rems : ils permettent de définir une valeur dynamique basée sur la taille de l'élément html</li>
+</ul>
+<section><img src="assets/font.jpg" width="600px" height="300px"></section>
+<hr>
+<h2>La propriété text-</h2>
+<h3>TEXT-ALIGN</h3>
+<p>La propriété text-align permet de contrôler l'alignement de notre texte :</p>
+<section><img src="assets/text.png" width="600px" height="300px"></section>
+<hr>
+<h3>TEXT-DECORATION</h3>
+<p>La propriété text-decoration permet de décorer le texte avec une ligne placée sous, sur ou en travers le texte.</p>
+<p>Nous pouvons agir sur 3 propriétés :</p>
+<ul>
+    <li>Le type de ligne (sous, sur ou en travers),</li>
+
+    <li>Le style de la ligne (pointillée, pleine, …),
+    </li>
+    <li>La couleur de la ligne.</li>
+</ul>
+<section><img src="assets/bDut2.gif"></section>
+
+<br>
+<br>
+<section style="text-align: center;"><a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" [routerLink]="['/js']">Cours suivant</a>
+</section>

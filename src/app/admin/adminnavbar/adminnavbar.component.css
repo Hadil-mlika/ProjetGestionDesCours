@@ -1,0 +1,81 @@
+.s {
+  color: rgb(31, 6, 177);
+}
+.a {
+  color: rgb(61, 63, 223);
+}
+.m{
+  color: rgb(95, 60, 247);
+}
+.na{
+  background-color:rgb(226, 226, 245)
+}
+nav ul li a:hover{
+  text-decoration:none;
+}
+  nav ul li a {
+      padding-right: 30px;
+      transition: all 0.5s ease-in;
+  }
+
+  ul li{
+      display: inline-block;
+
+  }
+  h6{
+    position:flex;
+
+  }
+  .dropdown {
+
+
+    color: white;
+    padding: 16px 20px;
+    border: none;
+
+    opacity: 0.8;
+    position: fixed;
+    bottom:550px;
+    right: 50px;
+    width: 170px;
+
+  }
+
+  .dropdown :hover {
+    box-shadow: 0px 0px 0px 10px rgb(255, 255, 255);
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+
+
+  }
+  .dropdown-item{
+      color: blue;
+
+
+  }
+  .dropdown-item:hover{
+
+  color:rgb(2, 2, 49);
+  transition: 0.1s ease;
+  -webkit-transition: 0.1s ease;
+  -moz-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+  }
+  li{
+    animation: textaa 5s infinite;
+
+    color:#1E90FF;
+    
+    font-family: Georgia, serif;
+    padding: 20px;
+  
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+

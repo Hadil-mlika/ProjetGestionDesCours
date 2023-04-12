@@ -1,0 +1,104 @@
+<app-navbar></app-navbar>
+<h2>Structure d'un document HTML</h2>
+<h3>Les balises de structure</h3>
+<section style="text-align: center;">
+    <img src="assets/Capture.PNG"><img src="assets/arbre_html.png">
+    <h5>Balise html est une balise principale qui englobe le contenu de la page web </h5>
+    <h5>Balise head definit la tete du document. </h5>
+    <h5>Balise title définit le titre du document.</h5>
+    <h5>Balise body definit le corps du document</h5>
+</section>
+<h2>
+    Les balises paragraphes
+</h2>
+<p>Nous allons commencer par les balises les plus utlisées, celles qui définissent un paragraphe :
+</p>
+<section style="text-align:center"><img src="assets/p.PNG"></section>
+<hr color="#094172">
+<h3>LES SAUTS DE LIGNE</h3>
+<p>L'espace entre deux paragraphes est important. Si vous souhaitez n'avoir qu'un simple retour à la ligne, il faut utiliser la balise :
+</p>
+<section style="text-align: center;"><img src="assets/balise-br.png"></section>
+<hr color="#094172">
+<h3>LES BALISES TITRES</h3>
+<p>Il existe 6 niveaux de titre, allant de h1 (titre de la page) à h6:
+
+</p>
+<section style="text-align: center;">
+
+    <img src="assets/336.PNG" width="600px" height="200px">
+    <img src="assets/titles.png" width="600px" height="200px">
+</section>
+<hr color="#094172">
+<h2>Listes</h2>
+
+<h3>LES LISTES ORDONNÉES</h3>
+<p>La première liste est la liste ordonnée. Il s'agit d'une liste dont l'ordre des éléments importantes.
+
+    <br> Cette liste commence par la balise <strong>ol</strong> </p>
+<section style="text-align: center;"><img src="assets/ol.png" width="700px" height="400px"> <img src="assets/resultat-liste-ordonnee-html.png" width="700px" height="300px">
+</section>
+<hr color="#094172">
+<h3>LES LISTES NON-ORDONNÉES</h3>
+<p>Nous allons maintenant passer aux listes non-ordonnées. Contrairement à la précédente, celle-ci liste des éléments dont l'ordre n'est pasimportant.<br> Cette liste commence par la balise <strong>ul</strong></p>
+<section style="text-align:center"><img src="assets/capturel.PNG" width="700px" height="300px"><img src="assets/Capturell.PNG" width="700px" height="300px" style="text-align: center">
+</section>
+<hr color="#094172">
+<h2>Images</h2>
+<h3>LA BALISE IMAGE</h3>
+<p>La balise image est une balise autofermée de type inline. Voilà à quoi elle ressemble
+    <br>Pour y insérer une image, il nous faudra utiliser l'attribut src et y mettre le lien vers notre fichier :
+</p>
+<section style="text-align: center"><img src="assets/mm.jpg" width="700px" height="300px"></section>
+<br>
+<p>
+    Notez que mon image est placée dans le dossier images. C'est pourquoi le lien vers celle-ci est : images/mon_image.jpg.
+    <br> Il est possible d'insérer différents types de fichiers dans la balise img. Voilà les plus utilisés :
+</p>
+<ul>
+    <li>.jpg</li>
+    <li>.png</li>
+    <li>.gif</li>
+</ul>
+<hr color="#094172">
+<h2>Liens internes, externes</h2>
+<h3>PRINCIPES DES LIENS</h3>
+<p>Un lien est un texte cliquable qui renvoit vers une source (page, document, …). Voilà à quoi ça ressemble :
+</p>
+<section style="text-align: center"><img src="assets/resultat-lien-externe-html-a-href.png">
+</section>
+<p>Pour créer un lien, il nous faut une balise <strong>a</strong> :
+    <br>Enfin, nous allons ajouter une source via l'attribut href</p>
+<section style="text-align: center"><img src="assets/15169760610981_Capture9.jpg" style="text-align: center"></section>
+<hr color="#094172">
+<h3>LIENS EXTERNES</h3>
+<p>Un lien externe est un lien qui renvoie vers une page d'une autre site internet La source doit donc être une url complète avec http:// :</p>
+<section style="text-align: center"><img src="assets/lien-externe-html-a-href.png"></section>
+<hr color="#094172">
+<h3>LIENS INTERNES</h3>
+<p>Un lien interne permet de faire un lien vers une page html interne à notre site. Prenons par exemple une site qui aurait 3 pages :</p>
+<section style="text-align: center"><img src="assets/unnamed.png" style="text-align: center"></section>
+<p>Lorsque nous sommes dans la page1, pour créer un lien vers la page page2.html, nous allons entrer dans le href la valeur du fichier html :
+</p>
+<section style="text-align: center"><img src="assets/m66.PNG"></section>
+<hr color="#094172">
+<h2>Div et span</h2>
+<h3>LA BALISE DIV</h3>
+<p>La balise
+    <strong>div</strong> est une balise à valeur neutre de type block. Quand vous avez un bloc mais qu'il ne doit pas avoir de valeur sémentique, c'est là qu'elle intervient.</p>
+<section style="text-align: center"><img src="assets/div.png" width="700" height="400"></section>
+
++
+
+<hr color="#094172">
+
+
+<h3>LA BALISE SPAN</h3>
+<p>La balise <strong>span</strong> est la sœur de la <strong>div</strong>. Comme elle, elle n'a aucune valeur sémentique. Par contre, elle est de type inline.</p>
+<section style="text-align: center"><img src="assets/span.png" width="700" height="400" style="text-align: center"></section>
+<br>
+<br>
+<section style="text-align: center;"><a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" [routerLink]="['/css']">Cours suivant</a>
+</section>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">

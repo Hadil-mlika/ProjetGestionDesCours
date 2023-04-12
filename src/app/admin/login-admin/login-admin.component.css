@@ -1,0 +1,29 @@
+.big-container{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+
+}
+.container{
+  color:blue;
+  flex-basis: 50%;
+
+  height: 100%;
+
+}
+
+.message{
+
+  flex-basis: 80%;
+  padding-left: 130px;
+
+
+}
+@media screen and (max-width: 767px) {
+   .big-container{
+       display:flex;
+       flex-direction:column-reverse;
+   }
+}

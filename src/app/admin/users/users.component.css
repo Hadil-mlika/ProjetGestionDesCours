@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+  }
+
+  img{
+
+    position: absolute;
+    left:750px;
+    top:130px;
+    left:700px;
+
+  }
+  .btn2{
+  position: absolute;
+  left: 1100px;
+
+  }
+  .btn3{
+    position: absolute;
+    left: 1000px;
+
+    }
+
+  ul li{
+    display: inline-block;
+  }
+  th{
+     color:blue;
+  }

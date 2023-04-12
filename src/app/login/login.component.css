@@ -1,0 +1,12 @@
+h1{ animation: textaa 5s infinite;
+
+    color:#1E90FF;
+    
+    font-family: Georgia, serif;
+    padding: 20px;
+    background-color: peachpuff;
+     
+    font-weight: bold;}
+    .log{
+        float:right;
+      }

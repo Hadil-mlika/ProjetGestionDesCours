@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+
+<h3>INTEGRATION DU JS</h3>
+<p>Tout d'abord, allez sur votre site de test et créez un nouveau dossier nommé « scripts » (sans guillemets). Ensuite, dans le nouveau dossier scripts que vous venez de créer, créez un nouveau fichier appelé main.js. Sauvegardez-le dans votre dossier scripts.
+</p>
+<p>Ensuite, dans votre fichier index.html, ajoutez l'élément suivant sur une nouvelle ligne avant la balise fermante body :</p>
+
+<section><img src="assets/s.PNG"></section>
+<hr>
+<h2>ENTREE ET SORTIE </h2>
+<h3>Entrée et sortie de données avec JavaScript </h3>
+<p>3 types de boites de messages peuvent être affichées en utilisant Javascript : Alerte, Confirmation et Invite</p>
+<p><strong>Méthode alert()
+                </strong> sert à afficher à l’utilisateur des informations simples de type texte. Une fois que ce dernier a lu le message, il doit cliquer sur OK pour faire disparaître la boît</p>
+<p><strong>Méthode confirm()
+                     </strong>permet à l’utilisateur de choisir entre les boutons OK et Annuler</p>
+<p><strong>Méthode prompt()</strong> La méthode prompt() permet à l’utilisateur de taper son propre message en réponse à la question posé</p>
+<p> <strong>La méthode document.write </strong> permet d’écrire du code HTML dans la page WEB</p>
+<section><img src="assets/7.PNG" width="600" height="400"><img src="assets/8.PNG" width="600" height="400"></section>
+<hr>
+<h2>LES VARIABLES</h2>
+<h3> DECLARATION ET AFFECTATION</h3>
+<p>Le mot-clé var permet de déclarer une ou plusieurs variables</p>
+<p> Après la déclaration de la variable, il est possible de lui affecter une valeur par l'intermédiaire du signe d'égalité (=).</p>
+<section><img src="assets/555.PNG" width="600" height="400"></section>
+<hr>
+<h3>VALEURS SPECIALES</h3>
+<p>JavaScript inclut aussi deux types de données spéciaux :</p>
+<ul>
+    <li><strong>Null :</strong> possède une seule valeur, null, qui signifie l’absence de données dans une variable</li>
+    <li><strong>Undefined ::</strong> possède une seule valeur, undefined. Une variable qui n’a jamais été affectée, pas même null est dite non définie (undefined)</li>
+</ul>
+<section><img src="assets/9.PNG" width="600" height="400"><img src="assets/10.PNG" width="600" height="400"></section>
+<hr>
+<h3>TYPEOF</h3>
+<p> Pour tester l’existence d’une variable et/ou vérifier son type, on utilise l’instruction typeof Exemple:</p>
+<ul>
+    <li>var booleanValue = true;</li>
+    <li>var numericValue = 678;</li>
+    <li>var stringValue = "this is a string";</li>
+    <li>alert(typeof booleanValue); // affiche "boolean";</li>
+    <li>alert(typeof stringValue); // affiche "string"</li>
+</ul>
+<hr>
+<h3>CONVERSION DE TYPE</h3>
+<P>eval(): évaluation et conversion numérique d’une chaîne</P>
+<UL>
+    <li>var a = 2;</li>
+    <li> eval("a*2"); // retourne la valeur numérique 4</li>
+    <li>eval(123); // retourne la valeur numérique 12</li>
+
+</UL>
+<p>parseInt(): conversion d’une chaîne en un nombre entie</p>
+<ul>
+    <li> parseInt("FF", 16); // retourne la valeur numérique 255 correspondant à la chaîne FF dans la base 16</li>
+</ul>
+<p>parseFloat(): conversion d’une chaîne en un nombre réel</p>
+<ul>
+    <li> parseFloat( "52.96 "); // retourne la valeur numérique 52.96</li>
+</ul>
+<p>String(): transforme un objet en chaîne de caractères</p>

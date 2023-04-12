@@ -1,0 +1,30 @@
+h1{ animation: textaa 5s infinite;
+
+    color:#1E90FF;
+    
+    font-family: Georgia, serif;
+    padding: 20px;
+    background-color: peachpuff;
+     
+    font-weight: bold;}
+/* 
+      
+@keyframes textaa {
+    20%{
+      color: #f08080;
+      margin-bottom: -40px;
+    }
+    50%{
+      letter-spacing: 1px;
+      margin-bottom: -40px;
+    }
+    20%{
+      letter-spacing: 4px;
+      margin-bottom: -40px;
+    }
+  } */
+
+  .img{
+    float:right;
+  }
+  

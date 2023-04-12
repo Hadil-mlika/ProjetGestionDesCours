@@ -1,0 +1,90 @@
+<h1>REGISTER</h1>
+<div class="img">
+    <img src= "assets/3333.jpg"  width="500px"> 
+</div>
+<div class="container1">
+<div class="container my-5">
+    <form [formGroup] = "registerForm" (ngSubmit)="onSubmit()">
+        <div class="form-row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" name="name" id="name" class="form-control"  formControlName="name">
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="lastname">Prénom</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control"  formControlName="lastname">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"  formControlName="email" aria-describedby="emailHelp">
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="phone">NTéléphone</label>
+                    <input type="text" name="phone" id="phone" class="form-control" formControlName="phone">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Mot de passe </label>
+                    <input type="password" class="form-control" id="exampleInputPassword1"  formControlName="password" [type]="showPasswordOnPress ? 'text' : 'password'">
+                    <div (mousedown)="showPasswordOnPress = !showPasswordOnPress"
+            (mouseup)="showPasswordOnPress = !showPasswordOnPress" >
+
+
+            <i alt="show" class="fa fa-eye eye-show"
+
+            [class.hide]="showPasswordOnPress" ></i>
+        </div>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="repeatPassword">Confirmer votre mot de passe </label>
+                    <input type="password" class="form-control" id="repeatPassword" formControlName="repassword" [type]="showPasswordOnPress ? 'text' : 'password'">
+                    <div (mousedown)="showPasswordOnPress = !showPasswordOnPress"
+            (mouseup)="showPasswordOnPress = !showPasswordOnPress" >
+
+
+            <i alt="show" class="fa fa-eye eye-show"
+
+            [class.hide]="showPasswordOnPress" ></i>
+        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary">S'inscrire</button>
+<!-- //lena ki na7i disabled ywali ma3atech yverifi les champs  -->
+            </div>
+        </div>
+      
+
+    </form>
+
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button primary" [routerLink]="['/login']">j'ai déja un compte</a>
+
+</div>
+
+
+

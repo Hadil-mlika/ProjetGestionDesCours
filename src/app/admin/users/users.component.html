@@ -1,0 +1,62 @@
+
+ <app-adminnavbar></app-adminnavbar>
+
+<div class="container my-5">
+
+    <div class="row">
+        <div class="col">
+            <h1>liste des Etudiants</h1>
+            <button class="btn1 btn-primary my-3" [routerLink]="['/add-user']">Ajouter des Etudiants</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <table  class="table">
+                <thead>
+                    <tr>
+                        <th>Nom des Etudiants</th>
+                        <th>Emails des Etudiants<th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody >
+
+                    <tr *ngFor="let user of users ; let i = index">
+                        <td>{{ user.name }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>
+                           <ul>
+                            <li><button class="btn3 btn-info"[routerLink]="['/update-user',user._id]" >Modifier</button></li>
+
+<li>
+                            <button
+                              class="btn2 btn-danger mx-3"
+                            >
+                            Supprimer
+                            </button>
+
+                          </li>
+                        </ul>
+
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+
+</div>
+
+
+
+
+
+
+ <app-adminfooter></app-adminfooter>
+
+

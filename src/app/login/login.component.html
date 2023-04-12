@@ -1,0 +1,36 @@
+<h1>LOGIN</h1>
+<div class="log">
+    <img src="assets/log.png"  width="500px">
+    </div>
+<div class="big-container">
+<div class="container my-5">
+    <form *ngIf="loginForm" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="col-6">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1"    formControlName="email" aria-describedby="emailHelp">
+
+        </div>
+        <div class="col-6">
+            <label for="exampleInputPassword1">Mot de Passe</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"  formControlName="password" >
+
+
+
+            <i alt="show" class="fa fa-eye eye-show"
+></i>
+        </div>
+
+        <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Connexion</button>
+<br/>
+<br/>
+<br/>
+        <div class="text-danger"></div>
+    </form>
+   
+</div>
+
+
+</div>
+
+
+

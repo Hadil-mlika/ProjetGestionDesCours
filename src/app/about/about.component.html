@@ -1,0 +1,57 @@
+<app-navbar></app-navbar>
+
+
+<section>
+    <div class="container" data-aos="fade-up">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="assets/logo.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h1>Apprendre le développement web</h1>
+                <p>Bienvenue dans l'Espace d'apprentissage de web. Cet ensemble d'articles a pour but de fournir aux développeurs web débutants tout ce dont ils ont besoin pour commencer à développer des sites web simples.</p>
+                <p>Si vous débutez complètement, le développement web peut être un réel défi — notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome. Vous
+                    devriez vous sentir chez vous, que vous soyez un étudiant apprenant le développement web (de votre propre gré ou dans le cadre de vos études), un enseignant recherchant des supports de cours, un amateur ou quelqu'un qui souhaite simplement
+                    comprendre la manière dont fonctionnent le Web et ses technologies.<a class="button primary" [routerLink]="['/cour']">Commencer</a></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="d">
+    <h1>Les principaux langages web, leurs rôles</h1>
+    <h3>Html : Affichage du contenu d’une page Internet</h3>
+    <p>Pour faire afficher au travers d’un navigateur le contenu d’une page Web tel que du texte, des images, etc. on fait appel au langage html. C’est ce langage HTML qui, par défaut, permet l’affichage des éléments du contenu de la page Web (sans ajout
+        de plugin) au travers du navigateur (Navigateur : Internet Explorer Internet Explorer, Navigateur : Fierfox Firefox, Navigateur : Opera Opéra, Navigateur : Safari Safari, Navigateur : Google Chrome Google Chrome etc.).</p>
+    <p class="definition">Le <strong>rôle</strong> du <strong>langage HTML</strong> est de permettre de rendre présent à l’écran au travers d'un <strong>page Web</strong> </p>
+    <section style="text-align: center;"><a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" [routerLink]="['/html']">Commencer cour html </a>
+    </section>
+
+    <h3>CSS : Mise en forme du contenu (mise en page) d’une page Internet</h3>
+    <p>Pour mettre en forme le contenu d’une page Web au travers un navigateur on peut le faire de façon rudimentaire avec le langage HTML, mais aussi de façon plus élaboré avec le langage CSS (Cascading Styles Sheet).</p>
+    <p class="rmq"><b>Rmq</b> : Pour un <strong>site Internet</strong>, on ne définit les <strong>règles CSS</strong> que sur un seul <strong>fichier CSS</strong> et qui s’appliquent pour l’ensemble des <strong>pages Web </strong>du <strong>site Internet</strong>. Exemple
+        : une fois que l’on a défini une « <strong>norme</strong> » (<strong>un style</strong>) pour, par exemple, la<strong> balise HTML</strong> des titres H1, <strong>toutes ses balises contenues sur les pages du sites Internet auront alors les mêmes caractéristiques de mise en forme</strong>.
+
+    </p>
+    <section style="text-align: center;"><a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" [routerLink]="['/css']">Commencer cour CSS </a>
+    </section>
+
+    <h3>JavaScript : Interaction – Animation sur une page Web</h3>
+    <p>Maintenant si l’on veut une interactivité sur la page Web (animation, mobilité d’un élément sur la page, résultat instantané d’un calcul, etc. ) on utilisera le langage JavaScript.</p>
+    <p class="rmq2"><b>Rmq</b> : Le <strong>langage JavaScript</strong> étant parfois bien compliqué à écrire, des <strong>API</strong> ont vu le jour permettant de simplifier son écriture (<strong>JQuery</strong>, …). Celui-ci n’est pas remplacer, c’est juste que le
+        programmeur écrit le code qu’il veut voir s’exécuter par le navigateur comme du <strong>JavaScript</strong> dans un langage permit par la librairie, et c’est la librairie ensuite qui traduit ce <strong>code</strong> en <strong>JavaScript</strong>.
+
+    </p>
+    <section style="text-align: center;"><a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" [routerLink]="['/js']">Commencer cour JS </a>
+    </section>
+    <dl class="imgTexte"><dt><img class="imgCenter"  src="assets/imagess.png"></dt>
+        <dd>Rôle du langage HTML, langage CSS et langage JavaScript</dd>
+    </dl>
+</section>
+<app-footer></app-footer>

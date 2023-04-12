@@ -1,0 +1,61 @@
+
+<app-adminnavbar></app-adminnavbar>
+<div class="log">
+    <img src="assets/333.jpg"  width="700px">
+    
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary my-3" [routerLink]="['/admin']">Retour</button>
+            <hr>
+            <h1> Editer un étudiant</h1>
+        </div>
+    </div>
+    <form [formGroup]="updateUserForm" (ngSubmit)="updateUser()">
+        <div class="form-row">
+            <div class="form-group col-6">
+                <label for="name">nom</label>
+                <input type="text" name="name" id="name" formControlName="name" class="form-control">
+             <!--    <div *ngIf="nom.touched && nom.invalid">
+                    <small *ngIf="nom.errors.required" class="text-danger"> le nom de l'hôpital est obligatoire<br></small>
+                    <small *ngIf="nom.errors.pattern" class="text-danger">Le nom de l'hôpital est invalide<br></small>
+
+                </div> -->
+            </div>
+            </div>
+            <div class="form-group col-6">
+                <label for="email">email</label>
+                <input type="text" name="email" id="email" class="form-control" formControlName="email">
+
+            </div>
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" formControlName="password" class="form-control">
+
+                </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-6">
+                      <label for="phone">phone</label>
+                      <input type="phone" name="phone" id="phone" formControlName="phone" class="form-control">
+
+                  </div>
+                  </div>
+
+
+
+        <div class="form-row">
+            <div class="form-group col">
+                <input type="submit" value="Valider"  class="btn btn-warning">
+            </div>
+        </div>
+
+    </form>
+</div>
+<app-adminfooter></app-adminfooter>
+
+
+
+
